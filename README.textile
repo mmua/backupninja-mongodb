@@ -4,4 +4,5 @@ Performs binary backup (using @mongodump@ utility) of MongoDB database.
 
 h3. Installation instructions
 
-TBD
+`cp mongodb mongodb.helper /usr/share/backupninja`
+`touch /etc/backup.d/30.mongodb`
